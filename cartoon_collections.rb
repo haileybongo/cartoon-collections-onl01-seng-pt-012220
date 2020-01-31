@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf_names)
-    if block_given?
+    if block_given? == true
      i = 0
      while i < dwarf_names.length
       dwarf_names.each_with_index { |item, index| puts "#{index}:#{item}" }
